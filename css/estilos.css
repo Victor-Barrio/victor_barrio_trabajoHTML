@@ -1,0 +1,195 @@
+/* Iniciamos el documento CSS 
+Le damos el estilo que debera seguir toda la pàgina*/
+
+html,
+body {
+  margin: 0 auto;
+  padding: 0px;
+  width: 980px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 24px;
+  background-color: #0d0804;
+}
+
+/* Editamos el estilo del encabezado 1*/
+h1 {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+/* Editamos el estilo del encabezado 2*/
+h2 {
+  font-size: 40px;
+  color: white;
+}
+
+/* Editamos el estilo de los párrafos */
+p {
+  text-align: justify;
+  color: white;
+}
+
+/* Le damos color y estilo a la cabecera */
+#imagen_logo {
+  display: flex;
+  padding-bottom: 50px;
+  color: white;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#logo_cabecera {
+  position: relative;
+  top: 30px;
+  height: 100px;
+}
+
+nav {
+  display: flex;
+  background-color: #0d0804;
+}
+
+nav a {
+  color: white;
+  padding: 18px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #eeeeee;
+  color: black;
+}
+
+#pagina_in {
+  background-color: #eeeeee;
+  color: black;
+}
+
+/* Contenido de la página principal */
+main {
+  height: auto;
+  margin: 10px;
+  background-color: #0d0804;
+}
+
+.articulos {
+  padding-top: 10px;
+}
+
+#imagen_calidad {
+  height: 270px;
+  display: flex;
+  justify-content: center;
+}
+
+#imagen_cinturon {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Contenido de la página productos */
+.galerias {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productos {
+  height: 200px;
+  width: 200px;
+}
+
+.titulo_producto {
+  text-align: center;
+}
+
+/* Contenido del formulario */
+.container_formulario{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+label{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.inputs{
+  width: 100%;
+  padding: 10px;
+  margin: 30px 0px 30px 0px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.inputs_checkbox{
+  display: inline;
+}
+
+button{
+  width: 70%;
+  padding: 10px;
+  margin: 30px 80px 10px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover{
+  background-color: #b9b9b9;
+}
+
+/* Contenido de la página contacto */
+#imagen_mapa{
+  display: flex;
+  justify-content: center;
+  height: 450px;
+}
+
+/* Contenido pie de página*/
+footer {
+  position: relative;
+  box-sizing: border-box;
+  clear: both;
+  padding: 20px;
+  margin: 8px;
+  text-align: center;
+  background-color: #0d0804;
+}
+
+.logos_redes {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+
+#redes {
+  position: relative;
+  right: 80px;
+  top: 12px;
+}
+
+#aviso_legal {
+  position: relative;
+  left: 80px;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+#direccion {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}

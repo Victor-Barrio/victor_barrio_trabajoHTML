@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Trabajo final HTML/CSS">
+  <meta name="robots" content="NOFOLLOW">
+  <meta name="Author" content="Víctor Barrio">
+  <meta name="keywords" content="Trabajo, Demo, SBD, Powerlifting">
+  <meta name="lang" content="es">
+  <meta name="category" content="Trabajo final">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <title>SBD Barcelona</title>
+</head>
+
+<body>
+  <!-- Cabecera de la página web -->
+  <header>
+    <div id="imagen_logo">
+      <img src="../images/logo_cabecera.jpg" alt="Logo SBD" title="Logo SBD" id="logo_cabecera">
+      <h1>SQUAT, BENCH & DEADLIFT</h1>
+    </div>
+
+    <!-- Barra de navegación de las páginas -->
+    <nav>
+      <a href="../index.html">INICIO</a>
+      <a href="productos.html">PRODUCTOS</a>
+      <a href="#" id="pagina_in">PRESUPUESTOS</a>
+      <a href="contacto.html">CONTACTO</a>
+    </nav>
+  </header>
+
+  <!-- Contenido de la página -->
+  <main>
+    <h2>¿NECESITAS UN PRESUPUESTO?</h2>
+    <p>Si quieres hacer un pedido muy grande para tu equipo, preguntarnos por alg&uacute;n producto en
+      espec&iacute;fico, informaci&oacute;n sobre m&aacute;s tallas, o cualquier otra cosa. No dudes de ponerte en
+      contacto con nosotros rellenando este formulario.</p>
+
+    <!-- Iniciamos el formulario -->
+    <form action="#" method="post" class="container_formulario">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre" value="" placeholder="Nombre (Requerido)" required class="inputs">
+      <label for="email">E-mail:</label>
+      <input type="text" name="email" id="email" value="" placeholder="E-mail (Requerido)" required class="inputs">
+      <label for="telefono">Tel&eacute;fono:</label>
+      <input type="text" name="telefono" id="telefono" value="" maxlength="9" placeholder="Tel&eacute;fono (Requerido)"
+        required class="inputs">
+      <label for="mas_info">Solicite m&aacute;s informaci&oacute;n:</label>
+      <textarea name="mas_info" id="mas_info" cols="1" rows="10"
+        placeholder="Cu&eacute;ntanos un poco lo que quieres (Requerido)" required class="inputs"></textarea>
+      <input type="checkbox" name="casilla" id="casilla" value="" required class="inputs_checkbox">
+      <label for="casilla" class="inputs_checkbox">Acepto la Pol&iacute;tica de privacidad</label>
+      <button type="submit" name="boton" value="Enviar">Enviar</button>
+      <button type="reset" name="borrar" value="Borrar">Borrar</button>
+    </form>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <span id="redes">
+      <a href="https://www.instagram.com/sbdapparel" target="top"><img src="../images/instagram.png" alt="Instagram"
+          title="Instagram" class="logos_redes"></a>
+      <a href="https://www.facebook.com/SBDApparel/" target="top"><img src="../images/facebook.png" alt="Facebook"
+          title="Facebook" class="logos_redes"></a>
+      <a href="https://www.youtube.com/sbdapparel" target="top"><img src="../images/youtube.png" alt="YouTube"
+          title="YouTube" class="logos_redes"></a>
+      <a href="https://x.com/sbdapparel" target="top"><img src="../images/twiter.png" alt="Twitter" title="Twitter"
+          class="logos_redes"></a>
+    </span>
+    <span id="direccion">Avinguda Diagonal, 3, 08019, Barcelona (Cataluña)</span>
+    <span>
+      <a href="aviso_legal.html" id="aviso_legal">Aviso Legal</a>
+    </span>
+  </footer>
+</body>
+
+</html>
